@@ -1,0 +1,11 @@
+Host isu1
+  Hostname 
+Host isu2
+  Hostname 
+Host isu3
+  Hostname 
+Host isu1 isu2 isu3
+  Port 22
+  User isucon
+#  IdentityFile ~/.ssh/id_rsa
+  IdentitiesOnly yes
